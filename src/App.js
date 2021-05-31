@@ -1,5 +1,5 @@
 import { createMuiTheme, ThemeProvider } from "@material-ui/core";
-import Landing from "./update/Landing";
+import Landing from "./components/Landing";
 
 const theme = createMuiTheme({
   typography: {
