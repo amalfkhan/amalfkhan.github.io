@@ -6,6 +6,7 @@ import Button from "@material-ui/core/Button";
 import Divider from "@material-ui/core/Divider";
 import { makeStyles } from "@material-ui/core/styles";
 import Projects from "./Projects";
+import About from "./About";
 
 const useStyles = makeStyles((theme) => ({
   pageTitle: {
@@ -66,7 +67,7 @@ const Landing = () => {
               className={classes.pageSubtitleSans}
               gutterBottom
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit
+              SOFTWARE DEVELOPER
             </Typography>
           </Grid>
           <Grid item xs={12}>
@@ -75,8 +76,10 @@ const Landing = () => {
               className={classes.pageSubtitleSerif}
               gutterBottom
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              I'm the Pakistani kid that didn't become a doctor and went into
+              computer science instead. When it comes to coding I'm no Mark
+              Zuckerburg. But on the plus side that means I'll never steal your
+              data and sell it to Russia (...allegedly).
             </Typography>
           </Grid>
           <Grid item xs={12}>
@@ -122,7 +125,7 @@ const Landing = () => {
             More About Me
           </Typography>
         </Grid>
-        <Projects />
+        <About />
       </Grid>
     </Container>
   );
