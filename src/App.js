@@ -1,31 +1,58 @@
 import { createMuiTheme, ThemeProvider } from "@material-ui/core";
-import Landing from "./components/Landing";
+import Landing from "./update/Landing";
 
 const theme = createMuiTheme({
   typography: {
-    fontFamily: "Libre Baskerville",
-    // fontWeightRegular: 400,
-    // // fontWeightRegular: 600,
-    // fontWeightBold: 700,
-    h2: {
+    pageTitle: {
+      fontFamily: "Playfair Display",
       fontWeight: 700,
-      color: "#0000AE",
-      fontSize: "40px",
+      fontSize: 42,
     },
-    h5: {
-      fontStyle: "italic",
-      fontSize: "24px",
+    pageSubtitleSans: {
+      fontFamily: "Montserrat",
+      fontSize: 15,
+      fontWeight: 400,
     },
-    h6: {
-      fontWeight: 700,
-      fontSize: "16px",
+    pageSubtitleSerif: {
+      fontFamily: "PT Serif",
+      fontSize: 15,
     },
-    body1: {
-      fontSize: "14px",
+    categoryHeading: {
+      fontFamily: "Playfair Display",
+      fontWeight: 600,
+      fontSize: 28,
+      textAlign: "center",
     },
-    button: {
-      fontStyle: "italic",
-      fontSize: "12px",
+    categorySubHeading: {
+      fontFamily: "Playfair Display",
+      fontWeight: 500,
+      fontSize: 20,
+    },
+    paragraph: {
+      fontFamily: "PT Serif",
+      fontSize: 14,
+    },
+    altParagraph: {
+      fontFamily: "Montserrat",
+      fontSize: 12,
+      // fontStyle: "italic",
+    },
+    hashtag: {
+      fontFamily: "Montserrat",
+      fontSize: 12,
+      fontWeight: 600,
+      "&:hover": {
+        backgroundColor: "#fff",
+        textDecoration: "underline",
+      },
+    },
+    textButton: {
+      fontFamily: "Montserrat",
+      fontSize: 11,
+      "&:hover": {
+        backgroundColor: "#fff",
+        textDecoration: "underline",
+      },
     },
   },
 });
