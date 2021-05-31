@@ -20,7 +20,7 @@ const theme = createMuiTheme({
     categoryHeading: {
       fontFamily: "Playfair Display",
       fontWeight: 600,
-      fontSize: 28,
+      fontSize: 32,
       textAlign: "center",
     },
     categorySubHeading: {

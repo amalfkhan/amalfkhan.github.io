@@ -78,8 +78,8 @@ const Landing = () => {
             >
               I'm the Pakistani kid that didn't become a doctor and went into
               computer science instead. When it comes to coding I'm no Mark
-              Zuckerburg. But on the plus side that means I'll never steal your
-              data and sell it to Russia (...allegedly).
+              Zuckerberg. But on the plus side that means I'll never steal your
+              data and (allegedly) sell it to Russia.
             </Typography>
           </Grid>
           <Grid item xs={12}>
@@ -87,9 +87,24 @@ const Landing = () => {
             <Button className={classes.hashtag}>#BLM</Button>
           </Grid>
           <Grid item xs={12}>
-            <Button className={classes.textButton}>GitHub</Button>
-            <Button className={classes.textButton}>LinkedIn</Button>
-            <Button className={classes.textButton}>Resume</Button>
+            <Button
+              href="https://github.com/amalfkhan"
+              className={classes.textButton}
+            >
+              GitHub
+            </Button>
+            <Button
+              href="https://www.linkedin.com/in/amalfkhan/"
+              className={classes.textButton}
+            >
+              LinkedIn
+            </Button>
+            <Button
+              href={`mailto:amalfkhan@gmail.com`}
+              className={classes.textButton}
+            >
+              Email
+            </Button>
           </Grid>
         </Grid>
       </Grid>
