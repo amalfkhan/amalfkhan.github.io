@@ -21,6 +21,7 @@ const useStyles = makeStyles((theme) => ({
   },
   categoryHeading: {
     ...theme.typography.categoryHeading,
+    paddingBottom: theme.spacing(6),
   },
   textButton: {
     ...theme.typography.textButton,
@@ -35,12 +36,11 @@ const useStyles = makeStyles((theme) => ({
     minWidth: 0,
     textTransform: "none",
   },
-  heading: {
-    marginTop: theme.spacing(6),
-    marginBottom: theme.spacing(4),
+  headingContainer: {
+    padding: theme.spacing(6, 0),
   },
-  category: {
-    margin: theme.spacing(4, 0, 6, 0),
+  categoryContainer: {
+    padding: theme.spacing(8, 0),
   },
 }));
 
@@ -50,7 +50,7 @@ const Landing = () => {
   return (
     <Container maxWidth="md">
       <Grid item container xs={12}>
-        <Grid item container xs={8} className={classes.heading}>
+        <Grid item container xs={12} className={classes.headingContainer}>
           <Grid item xs={12}>
             <Typography
               component="h1"
@@ -80,9 +80,6 @@ const Landing = () => {
             </Typography>
           </Grid>
           <Grid item xs={12}>
-            {/* <Typography component="h2" className={classes.hashtag} gutterBottom>
-              #FreePalestine #BLM
-            </Typography> */}
             <Button className={classes.hashtag}>#FreePalestine</Button>
             <Button className={classes.hashtag}>#BLM</Button>
           </Grid>
@@ -92,30 +89,37 @@ const Landing = () => {
             <Button className={classes.textButton}>Resume</Button>
           </Grid>
         </Grid>
-
-        <Grid item container xs={4} className={classes.heading}>
-          <Grid item xs={12}>
-            <Typography
-              component="h1"
-              className={classes.pageSubtitleSans}
-              gutterBottom
-            >
-              //Image?
-            </Typography>
-          </Grid>
-        </Grid>
       </Grid>
+
       <Grid item>
         <Divider />
       </Grid>
-      <Grid item container xs={12}>
-        <Grid item xs={12} className={classes.category}>
+
+      <Grid item container xs={12} className={classes.categoryContainer}>
+        <Grid item xs={12}>
           <Typography
             component="h2"
             className={classes.categoryHeading}
             gutterBottom
           >
             Projects
+          </Typography>
+        </Grid>
+        <Projects />
+      </Grid>
+
+      <Grid item>
+        <Divider />
+      </Grid>
+
+      <Grid item container xs={12} className={classes.categoryContainer}>
+        <Grid item xs={12}>
+          <Typography
+            component="h2"
+            className={classes.categoryHeading}
+            gutterBottom
+          >
+            More About Me
           </Typography>
         </Grid>
         <Projects />

@@ -34,9 +34,6 @@ const useStyles = makeStyles((theme) => ({
   imgCard: {
     boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;",
   },
-  cardContainer: {
-    marginBottom: theme.spacing(10),
-  },
   cardContent: {
     padding: theme.spacing(0),
   },
@@ -46,11 +43,11 @@ const Projects = () => {
   const classes = useStyles();
 
   return (
-    <Grid container>
+    <Grid container spacing={8}>
       <Grid item xs={12}>
-        <Card className={classes.cardContainer} elevation={0}>
+        <Card elevation={0}>
           <CardContent className={classes.cardContent}>
-            <Grid item container spacing={4} alignItems="center">
+            <Grid item container alignItems="center" spacing={8}>
               <Grid item xs={12} sm={6}>
                 <Card className={classes.imgCard} elevation={0}>
                   <CardMedia>
@@ -84,9 +81,9 @@ const Projects = () => {
       </Grid>
 
       <Grid item xs={12}>
-        <Card className={classes.textCard} elevation={0}>
+        <Card elevation={0}>
           <CardContent className={classes.cardContent}>
-            <Grid item container spacing={4} alignItems="center">
+            <Grid item container alignItems="center" spacing={8}>
               <Grid item xs={12} sm={6}>
                 <Typography
                   component="h3"
