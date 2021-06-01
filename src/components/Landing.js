@@ -84,25 +84,32 @@ const Landing = () => {
           </Grid>
           <Grid item xs={12}>
             <Button className={classes.hashtag}>#FreePalestine</Button>
-            <Button href="https://www.afrobiz.ca/" className={classes.hashtag}>
+            <Button
+              href="https://www.afrobiz.ca/"
+              target="_blank"
+              className={classes.hashtag}
+            >
               #BLM
             </Button>
           </Grid>
           <Grid item xs={12}>
             <Button
               href="https://github.com/amalfkhan"
+              target="_blank"
               className={classes.textButton}
             >
               GitHub
             </Button>
             <Button
               href="https://www.linkedin.com/in/amalfkhan/"
+              target="_blank"
               className={classes.textButton}
             >
               LinkedIn
             </Button>
             <Button
               href={`mailto:amalfkhan@gmail.com`}
+              target="_blank"
               className={classes.textButton}
             >
               Email

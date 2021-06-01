@@ -10,16 +10,17 @@ const useStyles = makeStyles((theme) => ({
   },
   paragraph: {
     ...theme.typography.paragraph,
-    marginBottom: theme.spacing(2),
+    paddingBottom: theme.spacing(1),
   },
   altParagraph: {
     ...theme.typography.altParagraph,
   },
   textButton: {
     ...theme.typography.textButton,
-    padding: theme.spacing(1, 0),
+    padding: theme.spacing(0),
     minHeight: 0,
     minWidth: 0,
+    fontSize: 12,
   },
   img: {
     height: "100%",
@@ -39,46 +40,129 @@ const Projects = () => {
   return (
     <Grid container spacing={8}>
       <Grid item xs={12} sm={4}>
-        <Typography component="h3" className={classes.categorySubHeading}>
-          Listening to...
+        <Typography
+          component="h3"
+          className={classes.categorySubHeading}
+          gutterBottom
+        >
+          Favorite listens
         </Typography>
-        <Button className={classes.textButton}>GitHub</Button>
+
+        <Button
+          href="https://thehoneydewpodcast.com/"
+          target="_blank"
+          className={classes.textButton}
+        >
+          The HoneyDew
+        </Button>
         <Typography component="p" className={classes.paragraph} gutterBottom>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ryan Sickler's comedy podcast
         </Typography>
-        <Typography component="p" className={classes.altParagraph}>
-          Tools: React/JavaScript, Node.js/Express, mongoDB
+
+        <Button
+          href="https://missedapexpodcast.com/"
+          target="_blank"
+          className={classes.textButton}
+        >
+          Missed Apex
+        </Button>
+        <Typography component="p" className={classes.paragraph} gutterBottom>
+          Formula 1 commentary podcast
+        </Typography>
+
+        <Button
+          href="https://www.youtube.com/watch?v=e84E1yGQMyk"
+          target="_blank"
+          className={classes.textButton}
+        >
+          The Poet
+        </Button>
+        <Typography component="p" className={classes.paragraph} gutterBottom>
+          Bobby Womack soul album
         </Typography>
       </Grid>
       <Grid item xs={12} sm={4}>
-        <Typography component="h3" className={classes.categorySubHeading}>
-          Watching
+        <Typography
+          component="h3"
+          className={classes.categorySubHeading}
+          gutterBottom
+        >
+          Always watching
         </Typography>
-        <Button className={classes.textButton}>GitHub</Button>
+
+        <Button
+          href="https://f1tv.formula1.com/"
+          target="_blank"
+          className={classes.textButton}
+        >
+          Formula 1
+        </Button>
         <Typography component="p" className={classes.paragraph} gutterBottom>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          I like watching fast cars go in circles
         </Typography>
-        <Typography component="p" className={classes.altParagraph}>
-          Tools: React/JavaScript, Node.js/Express, mongoDB
+
+        <Button
+          href="https://www.bbc.co.uk/programmes/b006mywy"
+          target="_blank"
+          className={classes.textButton}
+        >
+          Planet Earth
+        </Button>
+        <Typography component="p" className={classes.paragraph} gutterBottom>
+          BBC's breathtaking documentry series
+        </Typography>
+
+        <Button
+          href="https://www.youtube.com/watch?v=XK7T3mY1V-w"
+          target="_blank"
+          className={classes.textButton}
+        >
+          Dev Ed
+        </Button>
+        <Typography component="p" className={classes.paragraph} gutterBottom>
+          Great web-dev design tutorials
         </Typography>
       </Grid>
       <Grid item xs={12} sm={4}>
-        <Typography component="h3" className={classes.categorySubHeading}>
-          Learning
+        <Typography
+          component="h3"
+          className={classes.categorySubHeading}
+          gutterBottom
+        >
+          Trying out
         </Typography>
-        <Button className={classes.textButton}>GitHub</Button>
+
+        <Button
+          href="https://www.reddit.com/r/myog/"
+          target="_blank"
+          className={classes.textButton}
+        >
+          MYOG
+        </Button>
         <Typography component="p" className={classes.paragraph} gutterBottom>
-          I'm perpetually worried about being hungry, so I'm always the one with
-          food. So worried infact that I dream of having pet chickens so I never
-          run out of eggs (cleary not vegan). I love bring my quizzical ideas to
-          life. Overtime that's come in the form of making pottery, sewing my
-          own hiking gear, and ... Lastly, I hope to one day have pet chickens
-          in my backyard.
+          Making my my own hiking gear
         </Typography>
-        <Typography component="p" className={classes.altParagraph}>
-          Tools: React/JavaScript, Node.js/Express, mongoDB
+
+        <Button
+          href="https://www.trailforks.com/region/victoria/"
+          target="_blank"
+          className={classes.textButton}
+        >
+          Trailforks
+        </Button>
+        <Typography component="p" className={classes.paragraph} gutterBottom>
+          Reacquainting myself with cycling
+        </Typography>
+
+        <Button
+          href="https://firefox-source-docs.mozilla.org/setup/getting_set_up.html"
+          target="_blank"
+          className={classes.textButton}
+        >
+          Firefox
+        </Button>
+        <Typography component="p" className={classes.paragraph} gutterBottom>
+          Working on open source projects
         </Typography>
       </Grid>
     </Grid>

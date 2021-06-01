@@ -66,6 +66,7 @@ const Projects = () => {
                 </Typography>
                 <Button
                   href="https://github.com/amalfkhan/new-york-bites"
+                  target="_blank"
                   className={classes.textButton}
                 >
                   GitHub
@@ -103,6 +104,7 @@ const Projects = () => {
                 </Typography>
                 <Button
                   href="https://github.com/amalfkhan/my-mothers-kitchen"
+                  target="_blank"
                   className={classes.textButton}
                 >
                   GitHub
@@ -123,15 +125,16 @@ const Projects = () => {
                   Adding: Node.js/Express, mongoDB/mongoose
                 </Typography>
               </Grid>
-              <Hidden xsDown>
-                <Grid item xs={12} sm={6}>
+
+              <Grid item xs={12} sm={6}>
+                <Hidden xsDown>
                   <Card className={classes.imgCard} elevation={0}>
                     <CardMedia>
                       <img src={mymotherskitchen} className={classes.img} />
                     </CardMedia>
                   </Card>
-                </Grid>
-              </Hidden>
+                </Hidden>
+              </Grid>
             </Grid>
           </CardContent>
         </Card>
