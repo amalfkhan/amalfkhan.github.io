@@ -76,14 +76,20 @@ const Landing = () => {
               className={classes.pageSubtitleSerif}
               gutterBottom
             >
-              I'm the Pakistani kid that didn't become a doctor - I went into
-              computer science instead. When it comes to coding I'm no Mark
-              Zuckerberg. But on the plus side that means I'll never steal your
-              data and (allegedly) sell it to Russia.
+              I'm the Pakistani kid that didn't become a doctor - I became a
+              developer instead. When it comes to coding I'm no Mark Zuckerberg.
+              But on the plus side that means I'll never steal your data and
+              (allegedly) sell it to Russia.
             </Typography>
           </Grid>
           <Grid item xs={12}>
-            <Button className={classes.hashtag}>#FreePalestine</Button>
+            <Button
+              href="https://www.youtube.com/watch?v=8Ns4EAOLKZs"
+              target="_blank"
+              className={classes.hashtag}
+            >
+              #FreePalestine
+            </Button>
             <Button
               href="https://www.afrobiz.ca/"
               target="_blank"

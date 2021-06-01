@@ -91,7 +91,7 @@ const Projects = () => {
         </Typography>
 
         <Button
-          href="https://f1tv.formula1.com/"
+          href="https://www.formula1.com/"
           target="_blank"
           className={classes.textButton}
         >

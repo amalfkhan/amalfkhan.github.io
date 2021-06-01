@@ -1,4 +1,4 @@
-![Home page](https://i.imgur.com/zVgotgT.png)
+![Home page](https://i.imgur.com/A6Td2Z3.png)
 
 # Portfolio Website
 
