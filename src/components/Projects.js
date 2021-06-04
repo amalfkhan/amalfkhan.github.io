@@ -65,6 +65,13 @@ const Projects = () => {
                   New York Bites
                 </Typography>
                 <Button
+                  href="https://new-york-bites.herokuapp.com/"
+                  target="_blank"
+                  className={classes.textButton}
+                >
+                  Live
+                </Button>
+                <Button
                   href="https://github.com/amalfkhan/new-york-bites"
                   target="_blank"
                   className={classes.textButton}
