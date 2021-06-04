@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
   },
   textButton: {
     ...theme.typography.textButton,
-    padding: theme.spacing(1, 0),
+    padding: theme.spacing(1, 1, 1, 0),
     minHeight: 0,
     minWidth: 0,
   },
