@@ -53,7 +53,7 @@ const Projects = () => {
           target="_blank"
           className={classes.textButton}
         >
-          The HoneyDew
+          The HoneyDew &gt;
         </Button>
         <Typography component="p" className={classes.paragraph} gutterBottom>
           Ryan Sickler's comedy podcast
@@ -64,7 +64,7 @@ const Projects = () => {
           target="_blank"
           className={classes.textButton}
         >
-          Missed Apex
+          Missed Apex &gt;
         </Button>
         <Typography component="p" className={classes.paragraph} gutterBottom>
           Formula 1 commentary podcast
@@ -75,7 +75,7 @@ const Projects = () => {
           target="_blank"
           className={classes.textButton}
         >
-          The Poet
+          The Poet &gt;
         </Button>
         <Typography component="p" className={classes.paragraph} gutterBottom>
           Bobby Womack soul album
@@ -95,7 +95,7 @@ const Projects = () => {
           target="_blank"
           className={classes.textButton}
         >
-          Formula 1
+          Formula 1 &gt;
         </Button>
         <Typography component="p" className={classes.paragraph} gutterBottom>
           I like watching fast cars go in circles
@@ -106,7 +106,7 @@ const Projects = () => {
           target="_blank"
           className={classes.textButton}
         >
-          Planet Earth
+          Planet Earth &gt;
         </Button>
         <Typography component="p" className={classes.paragraph} gutterBottom>
           BBC's breathtaking documentry series
@@ -117,7 +117,7 @@ const Projects = () => {
           target="_blank"
           className={classes.textButton}
         >
-          Dev Ed
+          Dev Ed &gt;
         </Button>
         <Typography component="p" className={classes.paragraph} gutterBottom>
           Great web-dev design tutorials
@@ -137,7 +137,7 @@ const Projects = () => {
           target="_blank"
           className={classes.textButton}
         >
-          MYOG
+          MYOG &gt;
         </Button>
         <Typography component="p" className={classes.paragraph} gutterBottom>
           Making my my own hiking gear
@@ -148,7 +148,7 @@ const Projects = () => {
           target="_blank"
           className={classes.textButton}
         >
-          Trailforks
+          Trailforks &gt;
         </Button>
         <Typography component="p" className={classes.paragraph} gutterBottom>
           Reacquainting myself with cycling
@@ -159,7 +159,7 @@ const Projects = () => {
           target="_blank"
           className={classes.textButton}
         >
-          Firefox
+          Firefox &gt;
         </Button>
         <Typography component="p" className={classes.paragraph} gutterBottom>
           Working on open source projects
