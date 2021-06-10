@@ -48,15 +48,15 @@ const Projects = () => {
         <Card elevation={0}>
           <CardContent className={classes.cardContent}>
             <Grid item container alignItems="center" spacing={8}>
-              <Hidden xsDown>
-                <Grid item xs={12} sm={6}>
-                  <Card className={classes.imgCard} elevation={0}>
-                    <CardMedia>
-                      <img src={newyorkbites} className={classes.img} />
-                    </CardMedia>
-                  </Card>
-                </Grid>
-              </Hidden>
+              {/* <Hidden xsDown> */}
+              <Grid item xs={12} sm={6}>
+                <Card className={classes.imgCard} elevation={0}>
+                  <CardMedia>
+                    <img src={newyorkbites} className={classes.img} />
+                  </CardMedia>
+                </Card>
+              </Grid>
+              {/* </Hidden> */}
               <Grid item xs={12} sm={6}>
                 <Typography
                   component="h3"
@@ -134,13 +134,13 @@ const Projects = () => {
               </Grid>
 
               <Grid item xs={12} sm={6}>
-                <Hidden xsDown>
-                  <Card className={classes.imgCard} elevation={0}>
-                    <CardMedia>
-                      <img src={mymotherskitchen} className={classes.img} />
-                    </CardMedia>
-                  </Card>
-                </Hidden>
+                {/* <Hidden xsDown> */}
+                <Card className={classes.imgCard} elevation={0}>
+                  <CardMedia>
+                    <img src={mymotherskitchen} className={classes.img} />
+                  </CardMedia>
+                </Card>
+                {/* </Hidden> */}
               </Grid>
             </Grid>
           </CardContent>
